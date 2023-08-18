@@ -7,7 +7,13 @@ function bisiesto (anio){
     else{
       return false
     }
-}
+  }
+  else{
+    if (anio%4 == 0)
+    {
+      return true
+    }
+  }
 return false
 }
 
