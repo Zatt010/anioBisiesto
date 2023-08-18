@@ -5,6 +5,6 @@ describe("Es bisiesto", () => {
     expect(bisiesto(2008)).toEqual(true);
   });
   it("No es bisiesto", () => {
-    expect(bisiesto(1800 )).toEqual(false);
+    expect(bisiesto(2019 )).toEqual(false);
   });
 });
